@@ -1,6 +1,9 @@
     
 	body{
 	text-align:center;
+	font-family: 'BloggerSansBold';
+    font-weight: bold;
+    font-style: normal;
     }
 
     .current{
@@ -70,7 +73,7 @@
 	      font-size:20px;
 	      font-weight:bold;
 	      width:90%;
-	      height:35px;
+	      height:40px;
 		 } 
 
 
@@ -98,7 +101,7 @@
 		   }
   
           ul{
-	       font-size:25px;
-	       height:40px;
+	       font-size:30px;
+	       height:50px;
            }
  }
