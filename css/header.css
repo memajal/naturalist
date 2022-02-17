@@ -1,0 +1,104 @@
+    
+	body{
+	text-align:center;
+    }
+
+    .current{
+	background-color:red;
+	}
+
+/*the style of header that is the same for small screen sizes:
+  (0-320px); (321px-480px), (481px-569px), (569px-800px)
+*/
+@media all and (max-width: 800px) {
+
+        ul {
+		display:none;
+	    }
+	     
+	    #naturalists_logo{
+		 	 width:180px;
+			 height:50px;
+			 float:left;
+			 margin-left:5%;
+		  }
+
+	     #toogle_menu {
+		   	float:right;
+			width:35px;
+			height:35px;
+			margin-top:2%;
+			margin-right:5%;
+		 }
+	}
+
+/*the different style of header for screen size (569px-800px)
+*/
+    @media all and (min-width:569px) and (max-width: 800px) {
+
+         #naturalists_logo{
+		 	 width:250px;
+			 height:80px;
+		 }
+
+	     #toogle_menu {
+			width:60px;
+			height:60px;
+		 }
+    }
+
+
+/*the style of header that is the same for large screen sizes:
+  (801px-959px); (960px-1024px), (1025px-1240px), (1241px-)
+*/
+@media all and (min-width:801px){
+	     
+          #naturalists_logo{
+			 width:300px;
+	         height:70px;
+		  }
+
+         #toogle_menu{
+	      display:none;
+          }
+
+		 ul{
+	      display:flex;
+	      justify-content:center;
+	      list-style-type:none;
+	      text-transform:uppercase;
+	      font-size:20px;
+	      font-weight:bold;
+	      width:90%;
+	      height:35px;
+		 } 
+
+
+		  li{
+	       border:1px solid white;
+	        padding:5px;
+	        margin:1px;
+	        background-color:#1C99AE;
+		  }
+	      
+		  a{
+          text-decoration:none;
+	      color:white;
+          }
+}
+
+/*the different style of header for screen size (960px--)
+*/
+@media all and (min-width:960px) {
+ 
+
+          #naturalists_logo{
+	        width:350px;
+	        height:75px;
+		   }
+  
+          ul{
+	       font-size:25px;
+	       height:40px;
+           }
+ }
