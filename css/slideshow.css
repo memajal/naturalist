@@ -76,7 +76,8 @@
 	  }
 
 	  .text_over_img{
-	   width:990px;
+	   width:60%;
+	   left:20%;
 	   margin-top:-17em;
        }
  }
