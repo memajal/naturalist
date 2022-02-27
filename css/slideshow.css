@@ -18,6 +18,8 @@
 	  
    }
 
+   /*the style of slideshow for mobile from 0-568px */
+
 @media all and (max-width: 320px) {
 
     }
@@ -28,72 +30,53 @@
 @media all and (min-width:481px) and (max-width: 568px) {
 }
 
-@media all and (min-width:569px) and (max-width: 800px) {
-    .img_slideshow{
+/*the style for tablet for screen sizes 569-800px, 800-959px */
+
+@media all and (min-width:569px) and (max-width:958px) {
+   .img_slideshow{
 	width:90%;
 	height:22em;
-	
-	  }
+    }
 
-     .text_over_img{
+   .text_over_img{
 	   font-size:105%;
+	   width:80%;
 	    height:150px;
 	   margin-top:-15em;
-   }
+    }
 }
 
 @media all and (min-width:801px)and (max-width:958px)  {
 	 .img_slideshow{
-	width:90%;
-	height:23em;
+	  height:23em;
 	  }
+ }
 
-	    .text_over_img{
-	   font-size:105%;
-	    height:150px;
-	   margin-top:-15em;
-   }
-}
+ /*the style for desktop for screen sizes 959-1024px, 1025-1240px and 1241- */
 
- @media all and (min-width:959px) and (max-width: 1024px) {
+ @media all and (min-width:959px){
 	 .img_slideshow{
-	width:90%;
-	height:25em;
-	  }
-	      .text_over_img{
-	   font-size:110%;
-	    height:150px;
-	   margin-top:-15em;
-   }
- }
-
- @media all and (min-width:1025px) and (max-width: 1240px) {
-	  .img_slideshow{
-	width:70%;
-	height:25em;
+	  width:90%;
+	  height:25em;
 	  }
 
-	        .text_over_img{
-	   font-size:110%;
-	    width:60%;
-	    height:150px;
-	   margin-top:-15em;
-	   left:20%;
-   }
+	 .text_over_img{
+	  font-size:110%;
+	  width:80%;
+	  height:150px;
+	  margin-top:-15em;
+      }
  }
+
 
  @media all and (min-width:1241px) {
+
 	  .img_slideshow{
-	width:70%;
-	height:25em;
+	   height:27em;
 	  }
 
-	       .text_over_img{
-	   font-size:110%;
-	    width:60%;
-	    height:150px;
-	   margin-top:-15em;
-	   left:20%;
-   }
-
+	  .text_over_img{
+	   width:990px;
+	   margin-top:-17em;
+       }
  }
