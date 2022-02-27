@@ -89,7 +89,7 @@
 	   }
  }
 
-   /* The style for desktop device in size 960-1240px and 1240px- */
+   /* The style for desktop device in size 960-1240px and 1241px- */
 
  @media all and (min-width:960px){
 
@@ -97,66 +97,34 @@
 		   display:flex;
 		   flex-wrap:wrap;
 		   justify-content:flex-start;
-	   }
+	      }
 
-	    .last_articles_posts{
+	     .last_articles_posts{
           width:30%;
 		  margin-bottom:5%;
 		  margin-left:2%;
-		}
+		  }
 
-		.last_articles_posts img{
-	     width:80%;
-		 height:200px;}
+		 .last_articles_posts img{
+	       width:80%;
+		   height:200px;
+		  }
 
-	   .last_articles_posts h4, h5, h6, p{
-		 font-size:130%;
-	 }
-
+	     .last_articles_posts h4, h5, h6, p{
+		  font-size:130%;
+	      }
  }
 
  @media all and (min-width:1241px){
 
-  #page{
+          #page{
 		   width:1240px;
 		   background-color:white;
 		   margin-left:auto;
 		   margin-right:auto;
-	   }
+	      }
 
-	   body{ background-image: url("../img/background.jpg");
-	         background-size: cover;}
-
-	   .last_articles{
-		   display:flex;
-		   flex-wrap:wrap;
-		   justify-content:flex-start;
-		   
-		   
-	   }
-
-	    .last_articles_posts{
-          width:30%;
-		  margin-bottom:5%;
-		  margin-left:2%;
-
-		  
-		}
-
-		.last_articles_posts img{
-	     width:80%;
-		 height:200px;}
-
-
-	
-
-	 
-
-	   .last_articles_posts h4, h5, h6, p{
-		 font-size:130%;
-	 }
-
-   }
-
-
- }
+	      body{ background-image: url("../img/background.jpg");
+	         background-size: cover;
+		  }
+  }
