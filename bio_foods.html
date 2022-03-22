@@ -17,14 +17,35 @@
      <link rel="stylesheet" href="css/presantation.css">
      <link rel="stylesheet" href="css/content.css">
 
+        <style>
+     .content h2{
+         background-color:#1fbfb8;
+     }
+
+     .content img{
+         border-color:#1fbfb8;
+     }
+
+     .last_articles h4{
+         color:#1fbfb8;
+     }
+
+     .pagination a{
+         background-color:#1fbfb8;
+     }
+
+     h1{
+         color:#1fbfb8;
+     }
+    </style>
 </head>
 
 <body>
 
-  <div id="page">
-   <header>
+ <div id="page">
+  <header>
   
-    <img id="naturalists_logo" src="img/naturalists_logo.png" alt="naturalists website logo">
+     <img id="naturalists_logo" src="img/naturalists_logo.png" alt="naturalists website logo">
      <img id="toogle_menu" src="img/toogle_menu.png" alt="toogle menu icon">
           <ul id="menu">
               <li> <a href="index.html"> Home </a></li>
@@ -33,33 +54,92 @@
 			  <li> <a href="exercises.html"> Exercises </a></li>
               <li> <a href="skin_care.html">Skin care </a></li>
           </ul>   
-   </header>
+  </header>
 
-    <div class="content">
-       <div class="presentation"> 
-              <div class="content">
-              <img src="img/5-reasons-why-you-hate-to-exercise-and-how-to-overcome-it.jpg"> 
-               
-                <h2> Bio Foods </h2>
-              </div>
-           
-
-             <div class="content">
+  <div class="content">
+          <div class="content_presentation">
+           <div class="presentation">
              <img src="img/6-foods-to-eat-for-clean-arteries.png">
-             <h2> Bio Foods </h2>
+             <div class="txt_presentation">
+             <h2 class="post_category"> Bio Foods</h2>
+             <h3 class="post_title"> 6 foods to eat for clean arteries </h3>
+             <span> By Alketa Memaj &nbsp Date: 13 July 2022</span>  
              </div>
-
-           <div class="content">
-            <img src="img/apple-cider-vinegar-recipes-to-try.jpg">
-             <h2> Bio Foods </h2>
-            </div>
-        </div>  
-
-
-    </div>
-         
-
+           </div> 
+           
+           <div class="presentation">
+             <img src="img/5-reasons-why-you-hate-to-exercise-and-how-to-overcome-it.jpg">
+             <div class="txt_presentation">
+             <h2 class="post_category"> Bio Foods</h2>
+             <h3 class="post_title"> 5 reasons why you hate to exercise and how to overcome it </h3>
+             <span> By Alketa Memaj &nbsp Date: 13 July 2022</span> 
+             </div>
+           </div> 
+           
+           <div class="presentation">
+             <img src="img/Cancer_Prevention_Diet.jpg">
+              <div class="txt_presentation">
+               <h2 class="post_category"> Bio Foods</h2>
+               <h3 class="post_title"> Cancer Prevention Diet </h3>
+               <span> By Alketa Memaj &nbsp Date: 13 July 2022</span>   
+             </div>
+           </div>  
   </div>
 
+   <h1> Last Articles</h1>
+    <div class="last_articles">
+             <div class="last_articles_posts">
+              <img src="img/Cancer_Prevention_Diet.jpg">
+              <h4 id="post_category">Bio Foods </h4>
+              <h5 id="post_title"> Cancer Prevention Diet </h5>
+              <span> Alketa Memaj Date:09.02.2022</span>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+             </div>
+
+
+             <div class="last_articles_posts">
+               <img src="img/Arrat_Braziliane_permbajne_sasi_te_larte_kalorish_dhe_vitaminash.jpg">
+                <h4 id="post_category">Bio Foods </h4>
+                <h5 id="post_title"> Cancer Prevention Diet </h5>
+                <span> Alketa Memaj Date:09.02.2022</span>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+             </div>
+         
+
+             <div class="last_articles_posts">
+               <img src="img/20_Perfitime_te_pabesueshme_shendetesore_te_pirjes_se_lengut_te_majdanozit.jpg">
+               <h4 id="post_category">Bio Foods </h4>
+                <h5 id="post_title"> Cancer Prevention Diet </h5>
+                <span> Alketa Memaj Date:09.02.2022</span>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+             </div>
+
+              <div class="last_articles_posts">
+               <img src="img/20_Perfitime_te_pabesueshme_shendetesore_te_pirjes_se_lengut_te_majdanozit.jpg">
+               <h4 id="post_category">Bio Foods </h4>
+                <h5 id="post_title"> Cancer Prevention Diet </h5>
+                <span> Alketa Memaj Date:09.02.2022</span>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+             </div>
+           
+           </div>
+             <div class="pagination">
+            <a href=""> < </a>
+            <a href=""> 1 </a>
+            <a href=""> 2 </a>
+            <a href=""> 3 </a>
+            <a href=""> > </a>
+          </div>
+
+   </div>
+          
+  </div>
+
+ 
+</div>
 </body>
 </html>

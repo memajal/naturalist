@@ -19,15 +19,17 @@
 		display:none;
 	    }
 	     
+		header{
+			display:flex;
+			justify-content:space-between;
+		}
+
 	    #naturalists_logo{
 		 	 width:180px;
 			 height:50px;
-			 float:left;
-			 margin-left:5%;
 		  }
 
 	     #toogle_menu {
-		   	float:right;
 			width:35px;
 			height:35px;
 			margin-top:5px;
