@@ -1,4 +1,5 @@
 ﻿
+
 .last_articles_posts img{
 	width:90%;
 	margin-top:7px;		
@@ -14,12 +15,8 @@
 	   margin:0px;
 }
 
-.last_articles_posts h4{
-   color:#1fbfc5;
- }
-
-  .last_articles_posts h6{
-   color:#808080
+  .last_articles_posts span{
+   color:#808080;
  }
 
  .pagination{
@@ -31,7 +28,6 @@
 
 .pagination a{
 	text-decoration:none;
-	background-color:#1fbfc5;
 	padding-top:5px;
 	width:30px;
 	height:30px;
@@ -118,10 +114,10 @@
  @media all and (min-width:1241px){
 
           #page{
+			  margin:auto;
 		   width:1240px;
 		   background-color:white;
-		   margin-left:auto;
-		   margin-right:auto;
+		   float:center;
 	      }
 
 	      body{ background-image: url("../img/background.jpg");
